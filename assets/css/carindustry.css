@@ -1,0 +1,532 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Section */
+.navbar{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: none;
+}
+
+.navlinkscolor{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.drpdwnitem{
+    font-weight: 400 !important;
+}
+
+.fb:hover, .tw:hover, .inst:hover, .pinst:hover{
+    cursor: pointer;
+}
+
+.fb, .tw, .inst, .pinst{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.fb:hover{
+    color: #3b5999 !important;
+}
+
+.tw:hover{
+    color: #55acee !important;
+}
+
+.inst:hover{
+    color: #e4405f !important;
+}
+
+.pinst:hover{
+    color: #bd081c !important;
+}
+
+/* Carousel Section */
+.thiscarouselheight{
+    height: 100%;
+}
+
+#imageFirst, #imageSecond, #imageThird, #imageFourth, #imageFifth{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+#imageFirst{
+    background-image: url('../img/2018_pogea_racing_fplus_corsa_ferrari_488_gtb_4k_2-3840x2160.jpg');
+}
+
+#imageSecond{
+    background-image: url('../img/lamborghini-centenario-4k-ad-3840x2160.jpg');
+}
+
+#imageThird{
+    background-image: url('../img/lamborghini-centenario-coupe-m8-3840x2160.jpg');
+}
+
+#imageFourth{
+    background-image: url('../img/novitec_ferrari_812_superfast_2019_4k_8k_2-3840x2160.jpg');
+}
+
+#imageFifth{
+    background-image: url('../img/lamborghini_huracan_evo_2019_4k_2-3840x2160.jpg');
+}
+
+.thisslidertext{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+}
+
+.blurbackgroundiv{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.blurbackgroundiv:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Brands Area */
+.brandsarea{
+    padding: 50px 0px 50px 0px;
+}
+.logoboxes{
+    padding: 10px;
+}
+
+.logoimgs{
+    width: 100%;
+    height: 120px;
+}
+
+/* Brands & Description */
+.brandsanddescription{
+    padding: 50px 0px 50px 0px;
+}
+
+.brandheading{
+    color: #3b5999;
+}
+
+.brandheading:after{
+    display: block;
+    position: absolute;
+    content: "";
+    border-bottom: 3px solid #3b5999;
+    width: 14%; 
+    left: -42%;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+
+.brandheading:hover:after{
+    left: 42%;
+    transition: 1s;
+}
+
+.boxforpadd, .contentbox{
+    padding: 10px;
+}
+
+.curvedcarimage{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s ease;
+}
+
+.curvedcarimage:hover{
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.32);
+    background-color: #fff;
+}
+
+.boxdescheading{
+    color: #fff;
+    font-weight: bold;
+}
+
+.boxpaddesc{
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+/* Car Categories Section */
+.hidingoverflowcontent{
+    overflow: hidden;
+}
+
+#carimgOne, #carimgTwo, #carimgThree, #carimgFour, #carimgFive, #carimgSix{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+#carimgOne:hover, #carimgTwo:hover, #carimgThree:hover, #carimgFour:hover, #carimgFive:hover, #carimgSix:hover{
+    transform: scale(1.1);
+}
+
+#carimgOne{
+    background-image: url('../img/2020-Ford-Mustang-Shelby-GT500-V5-2160.jpg');
+}
+
+#carimgTwo{
+    background-image: url('../img/2019-hyundai-elantra.jpg');
+}
+
+#carimgThree{
+    background-image: url('../img/2019-ford-f-150-limited.jpg');
+}
+
+#carimgFour{
+    background-image: url('../img/lamborghini_huracan_evo_2019_4k_2-3840x2160.jpg');
+}
+
+#carimgFive{
+    background-image: url('../img/ar8spyder.jpg');
+}
+
+#carimgSix{
+    background-image: url('../img/focusrs.jpg');
+}
+
+.blurforcarimageback{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+.blurforcarimageback:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carimagetext{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn{
+    transition: 0.8s ease;
+    border-radius: 20px !important;
+    color: #fff !important;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #4285f4 !important;
+    color: #fff !important;
+}
+
+/* Car Carousel */
+.owlcarouselsection{
+    padding: 50px 0px 50px 0px;
+}
+.item{
+    padding: 10px;
+}
+.pngcarimgs{
+    width: 100%;
+    height: 120px;
+}
+.cartext{
+    color: #000;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+}
+
+/* Footer Section */
+.footersection{
+    padding: 50px 0px 50px 0px;
+}
+
+.logocontainerboxed{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.forlogoplacement{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 60%;
+}
+
+.pageslist, .carcategorieslist, .socialplatformlist{
+    list-style: none;
+    padding-left: 0px !important;
+}
+
+.footerheading, .pageslisttextlink, .carcategorieslisttextlink, .socialplatformtextlink{
+    color: #fff;
+}
+
+.pageslisttextlink, .carcategorieslisttextlink, .socialplatformtextlink{
+    font-style: italic;
+}
+
+.footerheading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Copyright Section */
+.copyrightsection{
+    padding: 20px 0px 20px 0px;
+}
+
+.copyrighttext{
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: 300;
+}
+
+@media(min-width: 320px){
+    /* Navbar Section */
+    .navbar-collapse{
+        background-color: #fff !important;
+    }
+
+    .navlinkscolor{
+        color: #000 !important;
+    }
+
+    /* Carousel Section */
+    .heightofcarousel{
+        height: 50vh;
+    }
+
+    .thisslidertext{
+        font-size: 18px;
+    }
+
+    /* Brands & Description */
+    .brandheading{
+        font-size: 30px;
+    }
+
+    .boxdescheading{
+        font-size: 20px;
+    }
+
+    #carimgOne, #carimgTwo, #carimgThree, #carimgFour, #carimgFive, #carimgSix{
+        height: 200px;
+    }
+
+    /* Footer Section */
+    .pageslist, .carcategorieslist, .socialplatformlist, .footerheading{
+        text-align: center;
+    }
+}
+
+@media(min-width: 576px){
+    .heightofcarousel{
+        height: 60vh;
+    }
+
+    #carimgOne, #carimgTwo, #carimgThree, #carimgFour, #carimgFive, #carimgSix{
+        height: 350px;
+    }
+}
+
+@media(min-width: 768px){
+    .heightofcarousel{
+        height: 80vh;
+    }
+
+    .thisslidertext{
+        font-size: 24px;
+    }
+
+    /* Brands & Description */
+    .brandheading{
+        font-size: 32px;
+    }
+    
+    .boxdescheading{
+        font-size: 25px;
+    }
+
+    #carimgOne, #carimgTwo, #carimgThree, #carimgFour, #carimgFive, #carimgSix{
+        height: 400px;
+    }
+}
+
+@media(min-width: 992px){
+    
+    /* Navbar Section */
+    .navbar-collapse{
+        background-color: transparent !important;
+    }
+
+    .fornavafterborder{
+        font-size: 22px;
+        transition: 0.5s;
+    }
+
+    .fornavafterborder:hover{
+        transition: 0.5s;
+        color: yellow !important;
+    }
+
+    .fornavafterborder:after{
+        position: absolute;
+        display: block;
+        border-bottom: 2px solid #fff;
+        content: '';
+        width: 0px;
+        transition: 0.5s;
+    }
+    
+    .fornavafterborder:hover:after{
+        border-bottom: 2px solid yellow;        
+        width: 55px;
+        transition: 0.5s;
+    }
+
+    .forafterborders:after{
+        display: block;
+        position: absolute;
+        content: '';
+        border-right: 2px solid rgba(255, 208, 0, 0.4);
+        top: 34%;
+        height: 30%;
+        width: 0px;
+    }
+    
+    .forafterborders:first-child:after{
+        display: none;
+        position: absolute;
+        content: '';
+        border-right: 2px solid rgba(255, 208, 0, 0.4);
+        top: 34%;
+        height: 30%;
+        width: 0px;
+    }
+
+    .navlinkscolor{
+        color: #fff !important;
+    }
+
+    /* Carousel Section */
+    .heightofcarousel{
+        height: 100vh;
+    }
+
+    .thisslidertext{
+        font-size: 45px;
+    }
+
+    /* Brands Area */
+    .afterborderforrows:after{
+        display: block;
+        position: absolute;
+        content: '';
+        border-right: 2px solid rgba(0, 0, 0, 1);
+        top: 10%;
+        height: 80%;
+        width: 0px;
+    }
+    
+    .afterborderforrows:first-child:after{
+        display: none;;
+        position: absolute;
+        content: '';
+        border-right: 2px solid rgba(0, 0, 0, 0.5);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+        top: 10%;
+        height: 50%;
+        width: 0px;
+    }
+
+    /* Brands & Description */
+    .rowmargins{
+        padding: 0px 0px 50px 0px;
+    }
+
+    .brandheading{
+        font-size: 35px;
+    }
+
+    .boxdescheading{
+        font-size: 28px;
+    }
+
+    #carimgOne, #carimgTwo, #carimgThree, #carimgFour, #carimgFive, #carimgSix{
+        height: 500px;
+    }
+
+    /* Footer Section */
+    .pageslist, .carcategorieslist, .socialplatformlist, .footerheading{
+        text-align: left;
+    }
+
+}
+
+@media(min-width: 1200px){
+    /* Brands & Description */
+    .brandheading{
+        font-size: 45px;
+    }
+
+    .boxdescheading{
+        font-size: 30px;
+    }
+}
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+      -webkit-transform: translate3d( 0, 0, 0);
+      transform: translate3d( 0, 0, 0);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+      -webkit-transform: translate3d( 0, 0, 0);
+      transform: translate3d( 0, 0, 0);
+    }
+    .carousel-inner > .item.next.left,
+    .carousel-inner > .item.prev.right,
+    .carousel-inner > .item.active {
+       -webkit-transform: translate3d(0, 0, 0);
+       transform: translate3d(0, 0, 0);
+    }
+}

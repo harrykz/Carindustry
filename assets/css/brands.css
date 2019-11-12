@@ -1,0 +1,137 @@
+#carlogoimg1, 
+#carlogoimg2, 
+#carlogoimg3, 
+#carlogoimg4, 
+#carlogoimg5, 
+#carlogoimg6, 
+#carlogoimg7, 
+#carlogoimg8, 
+#carlogoimg9,
+#carlogoimg10,
+#carlogoimg11,
+#carlogoimg12{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#carlogoimg1{
+    background-image: url('../img/HDLogos/bentley-4385783_1920.jpg')
+}
+
+#carlogoimg2{
+    background-image: url('../img/HDLogos/bmw-564950_1920.jpg')
+}
+
+#carlogoimg3{
+    background-image: url('../img/HDLogos/ferrari-295009_1920.jpg')
+}
+
+#carlogoimg4{
+    background-image: url('../img/HDLogos/ford-mustang-2342343_1920.jpg')
+}
+
+#carlogoimg5{
+    background-image: url('../img/HDLogos/jaguar-1660955_1920.jpg')
+}
+
+#carlogoimg6{
+    background-image: url('../img/HDLogos/mercedes-564949_1920.jpg')
+}
+
+#carlogoimg7{
+    background-image: url('../img/HDLogos/porsche-826385_1920.jpg')
+}
+
+#carlogoimg8{
+    background-image: url('../img/HDLogos/rolls-royce-526056_1920.jpg')
+}
+
+#carlogoimg9{
+    background-image: url('../img/HDLogos/vw-1043117_1920.jpg')
+}
+
+#carlogoimg10{
+    background-image: url('../img/HDLogos/oldie-2676491_1920.png')
+}
+
+#carlogoimg11{
+    background-image: url('../img/HDLogos/chevrolet-2714043_1920.jpg')
+}
+
+#carlogoimg12{
+    background-image: url('../img/HDLogos/cobra-84058_1920.jpg')
+}
+
+.carimagetextlogo{
+    color: #fff;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+@media(min-width: 320px){
+    /* Main Grid */
+    #carlogoimg1, 
+    #carlogoimg2, 
+    #carlogoimg3, 
+    #carlogoimg4, 
+    #carlogoimg5, 
+    #carlogoimg6, 
+    #carlogoimg7, 
+    #carlogoimg8, 
+    #carlogoimg9,
+    #carlogoimg10,
+    #carlogoimg11,
+    #carlogoimg12
+    {
+        height: 200px;
+    }
+}
+
+@media(min-width: 576px){
+
+}
+
+@media(min-width: 768px){
+    /* Main Grid */
+    #carlogoimg1, 
+    #carlogoimg2, 
+    #carlogoimg3, 
+    #carlogoimg4, 
+    #carlogoimg5, 
+    #carlogoimg6, 
+    #carlogoimg7, 
+    #carlogoimg8, 
+    #carlogoimg9,
+    #carlogoimg10,
+    #carlogoimg11,
+    #carlogoimg12
+    {
+        height: 300px;
+    }
+}
+
+@media(min-width: 992px){
+    /* Main Grid */
+    #carlogoimg1, 
+    #carlogoimg2, 
+    #carlogoimg3, 
+    #carlogoimg4, 
+    #carlogoimg5, 
+    #carlogoimg6, 
+    #carlogoimg7, 
+    #carlogoimg8, 
+    #carlogoimg9,
+    #carlogoimg10,
+    #carlogoimg11,
+    #carlogoimg12
+    {
+        height: 400px;
+    }
+}
+
+@media(min-width: 1200px){
+
+}
+
